@@ -3,7 +3,7 @@ body {
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(69, 0, 126);
     border-radius: 10px;
     height: 400px;
 }
@@ -11,7 +11,7 @@ body {
 .link-button {
     text-decoration: none;
     color: black;
-    border: 1px solid gray;
+    border: 1px solid rgba(45, 0, 248, 0.808);
     background-color: #f2f2f2;
     padding: 5px;
     border-radius: 5px;
