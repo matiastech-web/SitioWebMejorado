@@ -2,17 +2,7 @@ body {
     background-color: rgb(201, 200, 200);
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
-}
-
-body {
-    background-color: rgb(255, 255, 165);
-}
-
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
@@ -24,7 +14,6 @@ body {
     width: 20%;
     height: auto;
     margin: 0 auto;
-
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -32,13 +21,13 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
-
     transition: color 0.3s ease;
 }
 
 .link-button:hover {
     color: grey;
 }
+
 h1{
     text-align: center;
 }
