@@ -1,6 +1,5 @@
 body {
     background-color: rgb(255, 255, 165);
-    background-color: rgb(201, 200, 200);
 }
 
 .image{
@@ -10,6 +9,12 @@ body {
 }
 
 .link-button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -18,13 +23,9 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 
+    transition: color 0.3s ease;
 }
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-p{
-    text-align: center;
+
+.link-button:hover {
+    color: grey;
 }
