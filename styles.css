@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(201, 200, 200);
+}
+
+.image {
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
+    transition: color 0.3s ease;
+}
+
+.link-button:hover {
+    color: grey;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
